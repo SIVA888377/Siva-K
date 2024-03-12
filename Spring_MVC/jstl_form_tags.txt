@@ -4,9 +4,12 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 </web-app>
 
+/*Used for using html form tag in jsp*/
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %> 
 
+/*Used for using html form in jstl*/
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 
+/*To fetch the data from the databse*/
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1" isELIgnored="false"  %>
